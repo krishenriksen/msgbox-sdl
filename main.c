@@ -164,7 +164,7 @@ void initButtonRect(int hexColorRect, char text[], int hexColorFont) {
 	SDL_Texture* backgroundTexture = SDL_CreateTextureFromSurface(renderer, backgroundSurface);
 
 	SDL_Rect pos;
-	pos.x = (SCREEN_WIDTH / 2) - (w / 2);
+	pos.x = (SCREEN_WIDTH / 2) - ((w + 30) / 2);
 	pos.y = (SCREEN_HEIGHT - h) - 30;
 	pos.w = (w + 30);
 	pos.h = (h + 20);
