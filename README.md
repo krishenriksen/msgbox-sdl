@@ -1,5 +1,4 @@
-Lightweight Message Box based on SDL2
----
+# Lightweight Message Box based on SDL2
 
 Tested on RG351P, RG351M and RG351V
 
@@ -13,7 +12,8 @@ $ make -j4
 
 `msgbox "Description" "OK"`
 
-### Support the project
+Support the project
+---
 
 [![Donate](https://github.com/krishenriksen/AnberPorts/raw/master/donate.png)](https://www.paypal.me/krishenriksendk)
 [![Patreon](https://github.com/krishenriksen/AnberPorts/raw/master/patreon.png)](https://www.patreon.com/bePatron?u=54003740)
